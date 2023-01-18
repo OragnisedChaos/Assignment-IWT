@@ -4,23 +4,152 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sundar Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>ClashWiki</title>
   </head>
   <body>
-    <form action="post">
-      <label for="first">First Name</label>
-      <input type="text" id="fname" />
-      <label for="last">Last Name</label>
-      <input type="text" id="lname" />
-      <br />
-      <label for="dob">Date Of Birth </label>
-      <input type="date" />
-      <br />
-      <p>Select Gender :</p>
-      <label for="sex">Male</label>
-      <input type="radio" />
-      <label for="sex">Female</label>
-      <input type="radio" />
-    </form>
+    <section class="logo">
+      <img src="/images/logo.png" class="logo-img" />
+    </section>
+    <div class="about">
+      <h2>About</h2>
+      <p>
+        The game is set in a fantasy-themed persistent world where the player is
+        a chief of a village. Clash of Clans tasks players to build their own
+        village using the resources gained from attacking other player's
+        villages with troops; earning rewards, buying them with medals or by
+        producing them at their own village. The main resources are gold, elixir
+        and dark elixir. Players can conjoin to create clans, groups of up to
+        fifty people, who can then participate in Clan Wars together, donate and
+        receive troops, and chat with each other.
+      </p>
+    </div>
+    <div class="troop-info">
+      <h2 id="h2">Troops</h2>
+      <p>
+        The Battling units which are used to attack the other villages to "loot"
+        others village resources and help us to upgrade our village.
+      </p>
+
+      <div class="info-table">
+        <h3 id="h3">Archer Queen</h3>
+        <img src="/images/Archer_Queen_info.webp" alt="" />
+
+        <p id="description">
+          "This graceful huntress is a master of destructive force, though
+          modest in health. She snipes targets in her territory when defending,
+          and can summon stealth and terrifying damage when attacking once her
+          Royal Cloak ability is unlocked!"
+        </p>
+
+        <table id="table">
+          <tr>
+            <th>Special Ability</th>
+            <th>Damage Per Second(DPS)</th>
+            <th>Damage Per Hit(DPH)</th>
+            <th>Hit Points(Max Level)</th>
+            <th>Ability Time</th>
+            <th>Summoned Units</th>
+          </tr>
+          <tr>
+            <td>Royal Cloak</td>
+            <td>860</td>
+            <td>645</td>
+            <td>3750</td>
+            <td>6.8s</td>
+            <td>21</td>
+          </tr>
+        </table>
+        <h3>Barbarian King</h3>
+        <img src="/images/barbarian-king.png" alt="" />
+        <p id="description">
+          "This colossal menace soaks up huge amounts of damage and bashes
+          anything in his path. He guards his territory fiercely when defending,
+          and can launch into a devastating rage when attacking once his Iron
+          Fist ability is unlocked!"
+        </p>
+        <table id="table">
+          <tr>
+            <th>Special Ability</th>
+            <th>Damage Per Second(DPS)</th>
+            <th>Damage Per Hit(DPH)</th>
+            <th>Hit Points(Max Level)</th>
+            <th>Ability Time</th>
+            <th>Summoned Units</th>
+          </tr>
+          <tr>
+            <td>Iron Fist</td>
+            <td>635</td>
+            <td>762</td>
+            <td>12000</td>
+            <td>10s</td>
+            <td>38</td>
+          </tr>
+        </table>
+        <h3>Grand Warden</h3>
+        <img src="/images/grand-warden.png" alt="" />
+        <p id="description">
+          "This veteran battle-scholar seeks out groups of friendly troops to
+          fight behind and boost with his Life Aura, and assumes the form of a
+          tower on defense. Attacking, he can walk over walls or fly high, and
+          can make nearby troops immune to damage once his Eternal Tome ability
+          is unlocked!"
+        </p>
+        <table id="table">
+          <tr>
+            <th>Special Ability</th>
+            <th>Damage Per Second(DPS)</th>
+            <th>Damage Per Hit(DPH)</th>
+            <th>Hit Points(Max Level)</th>
+            <th>Ability Time</th>
+            <th>Summoned Units</th>
+          </tr>
+          <tr>
+            <td>Eternal Tome</td>
+            <td>334</td>
+            <td>601.2</td>
+            <td>2640</td>
+            <td>8.75</td>
+            <td>NONE</td>
+          </tr>
+        </table>
+        <h3>Royal Champion</h3>
+        <img src="/images/royal-champion.png" alt="" />
+        <p id="description">
+          "Over the Wall and at them! The Royal Champion is only afraid of four
+          things, and the enemy isn't one of them. She attacks with her spear at
+          short range and throws her shield to take down defenses once her
+          Seeking Shield ability is unlocked!"
+        </p>
+        <table id="table">
+          <tr>
+            <th>Special Ability</th>
+            <th>Damage Per Second(DPS)</th>
+            <th>Damage Per Hit(DPH)</th>
+            <th>Hit Points(Max Level)</th>
+            <th>Ability Time</th>
+            <th>Summoned Units</th>
+          </tr>
+          <tr>
+            <td>Seeking Shield</td>
+            <td>600</td>
+            <td>720</td>
+            <td>4450</td>
+            <td>0s</td>
+            <td>NONE</td>
+          </tr>
+        </table>
+      </div>
+      <div class="link">
+        <a href="/form.html" target="_blank">
+          <h3 class="external">Click here to LogIn</h3>
+        </a>
+      </div>
+    </div>
   </body>
 </html>

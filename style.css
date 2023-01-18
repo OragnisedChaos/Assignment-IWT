@@ -1,0 +1,98 @@
+/* h1 heading */
+body {
+  background-color: cornsilk;
+  /* background: rgba(180, 105, 251, 0.737); */
+  /* background: linear-gradient(pink, blue); */
+  padding: 25px;
+  text-align: center;
+}
+section {
+  display: inline-block;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  /* padding-left: 500px; */
+  font-family: cursive;
+  font-style: italic;
+  font-size: 50px;
+  display: inline-block;
+  color: darkblue;
+}
+h2 {
+  font-size: 45px;
+  margin-top: 60px;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.logo-img {
+  animation: none;
+}
+
+img {
+  width: 300px;
+  animation: any linear 5s infinite;
+}
+@keyframes any {
+  20% {
+    /* opacity: 0; 000*/
+    transform: translateY(-20px);
+  }
+  80% {
+    /* opacity: 1; */
+    transform: translateY(20px);
+  }
+}
+.troop-info {
+  text-align: center;
+}
+.info-table {
+  padding: 20px;
+}
+p {
+  font-size: 25px;
+}
+h3 {
+  font-size: 45px;
+  margin-top: 60px;
+}
+#table {
+  /* background: rgba(123, 123, 123, 0.423); */
+  z-index: 1;
+  backdrop-filter: blur(50px);
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: 10px 10px 40px black;
+  padding: 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+tr,
+td {
+  font-size: 20px;
+}
+a {
+  color: black;
+  font-family;
+  text-align: center;
+  text-decoration: none;
+}
+.link
+{
+animation: ap linear 5s infinite;
+}
+@keyframes ap {
+  20% {
+    /* opacity: 0; 000*/
+    transform: translateX(-20px);
+  }
+  80% {
+    /* opacity: 1; */
+    transform: translateX(20px);
+  }
+}
