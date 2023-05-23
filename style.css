@@ -41,11 +41,11 @@ img {
 @keyframes any {
   20% {
     /* opacity: 0; 000*/
-    transform: translateY(-20px);
+    transform: translateX(-20px);
   }
   80% {
     /* opacity: 1; */
-    transform: translateY(20px);
+    transform: translateX(20px);
   }
 }
 .troop-info {
@@ -78,13 +78,11 @@ td {
 }
 a {
   color: black;
-  font-family;
   text-align: center;
   text-decoration: none;
 }
-.link
-{
-animation: ap linear 5s infinite;
+.link {
+  animation: ap linear 5s infinite;
 }
 @keyframes ap {
   20% {
